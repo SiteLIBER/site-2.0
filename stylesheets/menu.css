@@ -1,0 +1,26 @@
+.submenu li {
+	float: left;
+}
+
+.submenu li ul {
+	display: none;
+	height: auto;
+	position: absolute;
+	width: 218px;
+	z-index: 200;
+}
+
+.submenu li:hover ul {
+    display: block;
+}
+
+.submenu li li {
+	display: block;
+	float: none;
+	width: 218px;
+}
+
+.submenu li ul a {
+	display: block;
+}
+
