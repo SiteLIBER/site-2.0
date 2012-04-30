@@ -645,7 +645,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #login_box {
     margin-top: 15px;
 	padding-bottom: 10px;
-	
+
 	border-bottom: 1px dotted #000;
 }
 
@@ -692,7 +692,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 	padding: 5px 8px;
 	display: block;
 	float: right;
-	
+
 	cursor: pointer;
 	color: #000;
 	font-size: 12px;
@@ -737,7 +737,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #facebook_box {
 	margin-top: 30px;
 	height: 275px;
-	
+
 	background: #fff;
 }
 
@@ -811,3 +811,198 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 	text-decoration: none;
 	background: url("../images/more_detail.png") no-repeat right center;
 }
+
+/*
+** Agenda
+*/
+
+#agenda_wrapper {
+	margin: 30px auto 0 auto;
+	width: 955px;
+}
+
+#agenda {
+	padding: 20px;
+
+	background: #fff url("../images/agenda_detail.png") no-repeat 245px 130px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#agenda > h2 {
+	display: none;
+}
+
+#agenda .more {
+	margin-top: 10px;
+	word-spacing: 8px;
+
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#agenda .more a {
+	padding-right: 4px;
+	display: inline-block;
+
+	color: #000;
+	text-decoration: none;
+	background: url("../images/more_detail.png") no-repeat right center;
+}
+
+#agenda h2 {
+	line-height: 90%;
+}
+
+#agenda h2 a {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#agenda h2 a:hover {
+	text-decoration: underline;
+}
+
+#agenda .datetime, #agenda .date {
+    margin: 0 0 10px 40px;
+    padding: 5px;
+    height: 32px;
+
+    font-weight: bold;
+    border-radius: 3px;
+    background: #ffc82e url("../images/clock_icon.png") no-repeat 85px center;
+}
+
+#agenda .datetime span, #agenda .date span {
+    display: block;
+    line-height: 100%;
+}
+
+#agenda .datetime .day, #agenda .date .day {
+    float: left;
+    font-size: 36px;
+}
+
+#agenda .datetime .month, #agenda .date .month,
+#agenda .datetime .year, #agenda .date .year {
+    width: 55px;
+}
+
+
+#agenda .datetime .month, #agenda .date .month {
+    margin: 4px 0 0 5px;
+    float: left;
+
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#agenda .datetime .year, #agenda .date .year {
+    margin: 2px 0 0 5px;
+    float: left;
+
+    font-size: 12px;
+}
+
+#agenda_wrapper .full_agenda {
+	margin-top: 10px;
+	float: right;
+}
+
+#agenda_wrapper .full_agenda a {
+	padding: 5px 10px;
+	display: block;
+	
+	color: #f0bc2c;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background: #1f1a17;
+}
+
+#agenda_wrapper .full_agenda a:hover {
+	color: #1f1a17;
+	background: #f0bc2c;
+}
+
+/* Main event */
+
+#agenda .main_event {
+	padding-right: 15px;
+	float: left;
+	width: 200px;
+	
+	background: url("../images/calendar.png") no-repeat left 3px;
+}
+
+#agenda .main_event .datetime .hour {
+    margin: -10px 0 0 0;
+    float: right;
+
+    font-size: 18px;
+}
+
+#agenda .main_event .info {
+	margin: 10px 0;
+
+	font-size: 10px;
+}
+
+#agenda .main_event .local {
+	padding: 5px 0 5px 20px;
+
+	font-size: 12px;
+	font-weight: bold;
+	background: url("../images/local_icon.png") no-repeat;
+}
+
+/* Other events */
+
+#agenda ul.other_events {
+	float: right;
+	width: 700px;
+
+	list-style: none;
+}
+
+#agenda ul.other_events li {
+    margin-bottom: 1px;
+	padding: 0 10px;
+	float: left;
+	width: 212px;
+	height: 120px;
+
+	border-left: 1px dotted #000;
+	background: url("../images/calendar.png") no-repeat 10px 3px;
+}
+
+#agenda ul.other_events li h2 {
+	clear: both;
+}
+
+#agenda ul.other_events li h2 a {
+	font-size: 14px;
+}
+
+#agenda ul.other_events li .date {
+	float: left;
+	width: 80px;
+
+    background: #ddd;
+}
+
+#agenda ul.other_events li .date .month,
+#agenda ul.other_events li .date .year {
+	width: 35px;
+}
+
+#agenda ul.other_events .more {
+	margin-top: 15px;
+	float: right;
+}
+
+
