@@ -153,17 +153,19 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #banner ul.slides li {
 	width: 680px;
 	height: 270px;
-	display: none;
-
 
 	background: #fff;
 }
 
-#banner ul.slides li.active {
+#banner ul.slides li a {
+	width: 680px;
+	height: 270px;
 	display: block;
 }
 
+
 #banner .pagination {
+    margin-top: -270px;
 	padding: 0 4px;
 	float: right;
 	width: 22px;
@@ -914,7 +916,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #agenda_wrapper .full_agenda a {
 	padding: 5px 10px;
 	display: block;
-	
+
 	color: #f0bc2c;
 	font-size: 14px;
 	font-weight: bold;
@@ -935,7 +937,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 	padding-right: 15px;
 	float: left;
 	width: 200px;
-	
+
 	background: url("../images/calendar.png") no-repeat left 3px;
 }
 
@@ -1012,7 +1014,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #counter_tax_wrapper {
 	margin: 30px auto 0 auto;
 	width: 955px;
-	
+
 	border-bottom: 1px solid #232227;
 }
 
@@ -1078,7 +1080,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 	width: 40px;
 	height: 60px;
 	line-height: 100%;
-	
+
 	font-size: 52px;
 	font-weight: normal;
 	text-shadow: 0 1px 0 #fff;
@@ -1101,7 +1103,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #footer_wrapper {
 	margin: 0 auto;
 	width: 955px;
-	
+
 	border-top: 1px solid #454449;
 	background: #2b2a30 url("../images/logo_footer.png") no-repeat 790px bottom;;
 }
@@ -1113,7 +1115,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #footer #ombudsman {
 	padding: 10px 0 10px 120px;
 	float: left;
-	
+
 	background: url("../images/megaphone_icon.png") no-repeat left center;
 }
 
@@ -1151,7 +1153,7 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #footer #copyright {
 	padding-top: 40px;
 	clear: both;
-	
+
 	color: #fff;
 	font-size: 12px;
 }
@@ -1163,3 +1165,4 @@ ul#main_navigation li.active a, ul#main_navigation li a:hover {
 #footer #copyright a:hover {
 	text-decoration: none;
 }
+
